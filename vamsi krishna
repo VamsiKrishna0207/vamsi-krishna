@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script>
+            
+            function myMethod(){
+                document.getElementById("emo").innerHTML="paragraph changed";
+            }
+        </script>
+    </head>
+    <body>
+        <p id="vft">krishn SARUKOLLA</p>
+        <h2>my name is vamsi krishna</h2>
+        <p id="kri">this is my frist js code</p>
+        <button  onClick="document.getElementById('kri').innerHTML='Hello javascript'">Click me</button>
+        <button onclick="document.getElementById('imgd').src='C:\Users\madhu\Downloads\glow.jpg'">Turn on the light</button>
+
+<img id="imgd" src="C:\Users\madhu\Downloads\offbulb.jpg" style="width:100px">
+
+<button onclick="document.getElementById('imgd').src='C:\Users\madhu\Downloads\offbulb.jpg'">Turn off the light</button>
+<h5 id="krish">vamsi krishna sarukolla yadav</h5>
+<button onclick="document.getElementById('krish').innerHTML='SARUKOLLA VAMSI KRISHNA'">click me</button>
+   
+<p id="emo">lkjn opiu ytiaDJ</p>
+<button type="button" onclick="myMethod()">try yaar</button>
+<script>
+    document.write("vamsi krishna");
+    window.alert(5+6);
+    
+    function myMethod(){
+        document.getElementById ("emo").innerHTML="paragraph changed";
+        alert(5+6);
+    }
+let a,b,c;
+a=8;
+b=9;
+c=a+b;
+document.write(c); 
+document.getElementById("vft").innerHTML=(2*6+6);
+
+</script>
+<button type="button" onclick="window.print()">print this page</button>
+
+
+</body>
+</html>
