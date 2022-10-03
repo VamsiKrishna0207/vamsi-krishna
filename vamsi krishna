@@ -39,5 +39,6 @@ document.getElementById("vft").innerHTML=(2*6+6);
 
 </script>
 <button type="button" onclick="window.print()">print this page</button>
-
+</body>
+</html>
 
